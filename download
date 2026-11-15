@@ -1,0 +1,29 @@
+# Connection settings, API keys and personal files
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Jupyter / Python temporary files
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Python environments
+.venv/
+venv/
+env/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Archives and original export with embedded credentials
+*.zip
+/b689e788-5b12-464d-9438-af0736e3047d.md

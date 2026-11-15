@@ -1,0 +1,12 @@
+# Target environment: Python 3.9, as used in the submitted notebook export.
+# Exact versions below were visible in the notebook's package-install output.
+pandas==1.2.4
+matplotlib==3.3.4
+phik==0.12.5
+
+# Other direct dependencies (their exact versions were not recorded).
+SQLAlchemy>=1.3,<2.0
+seaborn>=0.11,<0.12
+psycopg2-binary>=2.8,<3.0
+python-dotenv>=0.19,<2.0
+notebook>=6,<7
